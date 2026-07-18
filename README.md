@@ -14,41 +14,41 @@ Projeto ServeRest, criado para avaliação técnica.
 
 ## Cobertura de testes
 
-###WEB
+### WEB
 
 Login
-  Deve realizar login com usuário administrador
-  Deve realizar login com usuário não administrador
-  Não deve realizar login com senha incorreta
-  Não deve realizar login com e-mail inexistente
-  Deve validar os campos obrigatórios
+-Deve realizar login com usuário administrador. 
+-Deve realizar login com usuário não administrador. 
+-Não deve realizar login com senha incorreta. 
+-Não deve realizar login com e-mail inexistente. 
+-Deve validar os campos obrigatórios. 
 
 Cadastro de usuários
-  Deve cadastrar um usuário não administrador
-  Deve cadastrar um usuário administrador
-  Não deve cadastrar um e-mail já existente
-  Deve validar os campos obrigatórios
-  Não deve cadastrar um e-mail em formato inválido
-
+  -Deve cadastrar um usuário não administrador
+  -Deve cadastrar um usuário administrador
+  -Não deve cadastrar um e-mail já existente
+  -Deve validar os campos obrigatórios
+  -Não deve cadastrar um e-mail em formato inválido
 
 Produto
-  Deve cadastrar um novo produto com sucesso
-  Deve cadastrar e excluir um produto com sucesso
+  -Deve cadastrar um novo produto com sucesso
+  -Deve cadastrar e excluir um produto com sucesso
 
-###API
+
+### API
 
 Usuários
-  Deve criar um usuário comum com sucesso
-  Deve criar um usuário administrador com sucesso
-  Não deve criar um usuário com e-mail duplicado
-  Não deve criar um usuário sem os campos obrigatórios
-  Deve excluir um usuário comum com sucesso
-  Deve excluir um usuário administrador com sucesso
-  Deve alterar somente a senha do usuário com sucesso
-  Deve alterar somente o nome do usuário com sucesso
-  Deve alterar somente o e-mail do usuário com sucesso
-  Deve alterar somente o perfil de usuário comum para administrador
-  Deve alterar somente o perfil de administrador para usuário comum
+  -Deve criar um usuário comum com sucesso
+  -Deve criar um usuário administrador com sucesso
+  -Não deve criar um usuário com e-mail duplicado
+  -Não deve criar um usuário sem os campos obrigatórios
+  -Deve excluir um usuário comum com sucesso
+  -Deve excluir um usuário administrador com sucesso
+  -Deve alterar somente a senha do usuário com sucesso
+  -Deve alterar somente o nome do usuário com sucesso
+  -Deve alterar somente o e-mail do usuário com sucesso
+  -Deve alterar somente o perfil de usuário comum para administrador
+  -Deve alterar somente o perfil de administrador para usuário comum
 
 ## Arquitetura do projeto
 
