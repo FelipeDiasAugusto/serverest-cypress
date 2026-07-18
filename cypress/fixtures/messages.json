@@ -1,0 +1,13 @@
+{
+  "login": {
+    "invalidCredentials": "Email e/ou senha inválidos",
+    "requiredEmail": "Email é obrigatório",
+    "requiredPassword": "Password é obrigatório"
+  },
+  "register": {
+    "emailAlreadyExists": "Este email já está sendo usado",
+    "requiredName": "Nome é obrigatório",
+    "requiredEmail": "Email é obrigatório",
+    "requiredPassword": "Password é obrigatório"
+  }
+}
